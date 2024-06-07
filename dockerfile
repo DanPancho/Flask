@@ -1,9 +1,6 @@
 # Usa una imagen base oficial de Python
 FROM python:3.10-slim
 
-# Establece el directorio de trabajo
-WORKDIR /app
-
 # Copia los archivos de requisitos y la aplicación al contenedor
 COPY requirements.txt requirements.txt
 COPY app.py app.py
