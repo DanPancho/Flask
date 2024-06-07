@@ -17,7 +17,7 @@ RUN --mount=type=cache,target=/root/.cache/pip /opt/venv/bin/pip install --upgra
     && /opt/venv/bin/pip install -r requirements.txt
 
 # Exponer el puerto 5000
-EXPOSE 5001
+EXPOSE 5000
 
 # Comando para ejecutar la aplicación
 CMD ["python", "app.py"]
